@@ -76,6 +76,7 @@ export function genHandlers (
 }
 
 // Generate handler code with binding params on Weex
+// 1111
 /* istanbul ignore next */
 function genWeexHandler (params: Array<any>, handlerCode: string) {
   let innerHandlerCode = handlerCode
